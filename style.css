@@ -1,0 +1,103 @@
+body{
+	background-color: #3598c0;
+	margin:0;
+	padding:0;
+	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Arimo', sans-serif;*/
+}
+header{
+	background-color: white;
+	color: #22607a;
+	display:inline;
+	padding:0;
+	margin:0;
+}
+
+nav ul{
+    list-style: none;
+    background-color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+nav a{
+    text-decoration: none;
+    color: #22607a ;
+    display: block;
+    transition: 1s background-color;
+}
+nav a:hover{
+    background-color: #c0beba   ;
+}
+h2{
+	font-size: 20px;
+}
+h1{
+	font-size: 40px;
+	font-family: 'Handlee', cursive;
+}
+input{
+	width: 300px;
+}
+#mensagem{
+	height: 100px;
+}
+#enviar{
+	width: 100px;
+	margin-left: 100px;
+	background-color:#c0beba ;
+	color: #2F4F4F;
+	font-weight: bold;
+	border-radius: 10px;
+	/*border: 4px;*/
+}
+@media screen and (min-width: 600px){
+    nav li{
+        width: 120px;
+        border-bottom:  none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+        display: inline-block;
+        margin-right: -4px;
+    }
+    .icones{
+	float: right; /*comando pra deixar sempre a direita*/
+	margin-top:-50px;
+	}
+
+	#sechome{
+		display: grid;
+		grid-template-columns: 1fr 1fr; 
+	}
+	#textinho{
+		margin-top: 300px;
+		padding-left: 100px;	
+	}
+
+
+/* PROJETOS*/
+	#projetos{
+		margin: 100px 300px;
+	}
+
+	#projetos img{
+		margin: 0px 360px;
+	}
+    
+    #projetos p{
+    	margin: 0px 100px;
+    	text-align: center;
+    }
+
+    #seccontact{
+    	margin-left: 550px;
+    }
+     #seccontact img{
+    	margin-top:10px;
+    }
+.menuAtual{
+	background-color: #3598c0;
+}
+
+}
